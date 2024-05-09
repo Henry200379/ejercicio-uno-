@@ -1,0 +1,240 @@
+/*.backgroundInicio {
+    background-image: linear-gradient(95deg, rgb(167, 240, 245), white);
+  }
+  *,
+  */
+html,
+body {
+  margin: 0;
+
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+* {
+
+
+
+  box-sizing: border-box;
+
+}
+
+
+
+
+
+
+
+ul,
+li {
+  list-style: none;
+  white-space: nowrap;
+}
+
+li {
+  display: inline;
+}
+
+img {
+  margin-top: -16px;
+}
+
+/* Main container */
+
+.main-container {
+  width: 500px;
+  height: 280px;
+  margin: 0 auto;
+}
+
+/* Slider container */
+.slider-container {
+  position: relative;
+  height: 100%
+}
+
+/* dots carrusel */
+.dots-container {
+  display: flex;
+  justify-content: center;
+}
+
+.dot-container-item {
+  margin: 8px 3px;
+  cursor: pointer;
+  font-size: 12px;
+  text-align: center;
+}
+
+/* Arrows */
+.leftArrow {
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  left: 32px;
+  font-size: 50px;
+  font-weight: 700;
+  color: #fff;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.rightArrow {
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  right: 32px;
+  font-size: 50px;
+  font-weight: 700;
+  color: #fff;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.container-images {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  border: 1px solid #eee;
+  overflow: hidden;
+}
+
+/*div.active {
+  background: #ccc;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+}
+*/
+
+
+
+.tabDos {
+  margin: 20px auto;
+  max-width: 1000px;
+  width: 95%;
+  display: flex;
+ 
+
+}
+
+.tabDos .tabDos-headers {
+  display: flex;
+  flex-wrap: wrap;
+  border-bottom: 1px solid #bbb;
+  
+}
+
+.tabDos .tabDos-headers .tabDos-header {
+  position: relative;
+  padding: 0px 20px;
+  height: 30px;
+  line-height: 20px;
+  z-index: 2;
+  cursor: pointer;
+  color: #222;
+  font-weight: 600;
+  border-radius: 7px;
+  display: flex;
+ 
+}
+
+.tabDos .tabDos-headers .tabDos-header:before {
+  content: "";
+  position:absolute;
+  bottom: 10x;
+  left: 20px;
+  width: 25px;
+  height: 4px;
+  background: #888;
+  border-radius: 10px;
+  margin-top: 21px;
+  display: flex;
+}
+
+.tabDos .tabDos-headers .tabDos-header.active {
+  color: #13B4BC;
+  border: 1px solid #bbb;
+  border-bottom: none;
+  box-shadow: 0px 1px 0px #fff;
+  display: flex;
+
+
+}
+
+
+
+.tabDos .tabDos-headers .tabDos-header.active:before {
+  background: #13B4BC;
+
+}
+
+.tabDos .tabDos-body>p {
+  color: #555;
+  margin-bottom: 10px;
+}
+
+
+
+
+.tabDos {
+  margin: 20px auto;
+  max-width: 1000px;
+  width: 70%;
+
+}
+
+.tabDos .tabDosheaders {
+  display: flex;
+  flex-wrap: wrap;
+  border-bottom: 1px solid #bbb;
+}
+
+.tabDos .tabDosheaders .tabDosheader {
+  position: relative;
+  padding: 0px 20px;
+  height: 35px;
+  line-height: 30px;
+  z-index: 2;
+  cursor: pointer;
+  color: #5a5353;
+  font-weight: 600;
+  border-radius:  1rem 1rem;
+}
+/*
+.tabDos .tabDosheaders .tabDosheader:before {
+  content: "";
+  position:absolute;
+  bottom: 10x;
+  left: 20px;
+  width: 25px;
+  height: 4px;
+  background: #888;
+  border-radius: 10px;
+  margin-top: 21px;
+  
+}
+*/
+.tabDos .tabDosheaders .tabDosheader.active {
+  color: #fcfcfc;
+  border: 1px solid #bbb;
+  border-bottom: none;
+  box-shadow: 0px 1px 0px #fff;
+  background-color: #13B4BC;
+  font-style: normal;
+  
+
+
+}
+
+
+.tabDos .tabDosheaders .tabDosheader.active:before {
+  background: #13B4BC;
+
+}
+
+.tabDos .tabDosbody>p {
+  color: #555;
+  margin-bottom: 10px;
+}
+
