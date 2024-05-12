@@ -19,7 +19,7 @@ export default function inicio() {
         <Typography variant="h5" color="#74b9ff" padding={3}>Categorias</Typography>
         <Bluecard />
         <Bluecard />
-        
+        <h3>Hola</h3>
 
         <App />
        
